@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/scramjs/playground#readme",
   "dependencies": {
-    "jfive-web-components": "git+ssh://git@github.com/scramjs/jfive-web-components.git",
     "scram-engine": "^0.4.6"
   },
   "devDependencies": {
