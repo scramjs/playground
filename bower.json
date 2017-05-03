@@ -1,0 +1,17 @@
+{
+  "name": "playground",
+  "homepage": "https://github.com/scramjs/playground",
+  "authors": [
+    "Benjamin DeMann <benjamin.demann@gmail.com>",
+    "Jordan Last <jordan.michael.last@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
