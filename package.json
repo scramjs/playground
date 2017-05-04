@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/scramjs/playground#readme",
   "dependencies": {
-    "scram-engine": "^0.4.6"
+    "scram-engine": "^0.4.6",
+    "raspi-io": "^8.0.1"
   },
   "devDependencies": {
     "electron-rebuild": "^1.5.7"
