@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/scramjs/playground#readme",
   "dependencies": {
-    "scram-engine": "^0.4.6",
-    "raspi-io": "^8.0.1"
+    "jfive-web-components": "git+https://github.com/scramjs/jfive-web-components.git#led",
+    "raspi-io": "^8.0.1",
+    "scram-engine": "^0.4.6"
   },
   "devDependencies": {
     "electron-rebuild": "^1.5.7"
