@@ -1,0 +1,19 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../node_modules/jfive-web-components/jfive-led.html">
+
+<dom-module id="pg-app">
+  <template>
+    <jfive-led on="True" pin="1"></jfive-led>
+  </template>
+  <script>
+    class PGApp extends HTMLElement {
+      constructor() {
+        super();
+        console.log('my-element was created!');
+      }
+    }
+
+    // Register custom element class with browser
+    customElements.define('my-element', MyElement);
+  </script>
+</dom-module>
