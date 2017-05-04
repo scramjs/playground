@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "xvfb-run electron node_modules/scram-engine/main.js --entry-file src/index.html",
+    "start": "xvfb-run -a electron node_modules/scram-engine/main.js --entry-file src/index.html",
     "rebuild": "electron-rebuild"
   },
   "repository": {
